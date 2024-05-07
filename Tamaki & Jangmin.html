@@ -1,0 +1,276 @@
+<!-- Tamaki Hashiramoto, Jangmin Song -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Montreal Trip Web</title>
+        <link rel="stylesheet" href="style.jt.css"/>
+        <style>
+            @keyframes rotateImage {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+        <script>
+        function startAnimation() {
+            var img = document.querySelector('.animate-albert');
+            img.style.animation = 'rotateImage 5s linear infinite';
+        }
+    
+        function stopAnimation() {
+            var img = document.querySelector('.animate-albert');
+            img.style.animation = 'none';
+        }
+        </script>
+    </head>
+
+    <body>
+        <h1 id = "top">Montreal Trip April 2024</h1>
+        <a href="https://youtu.be/ELDBc6CKhb0">Trip Video</a>
+        <ul>
+            <li><a href="#day1">Day1</a></li>
+            <li><a href="#day2">Day2</a></li>
+            <li><a href="#day3">Day3</a></li>
+            <li><a href="#day4">Day4</a></li>
+            <li><a href="#day5">Day5</a></li>
+        </ul>
+
+        <button onclick="startAnimation()">Start Animation</button>
+        <button onclick="stopAnimation()">Stop Animation</button>
+
+        <table border="1"> <!--style the table with some line with border-->
+            <caption><div style="font-size: 25px;">People Traveled</div></caption>
+            <tr>
+                <th>Name</th>
+                <th>Picture</th>
+                <th>Year</th>
+            </th>
+            <tr> <!--table row-->
+                <td><a href="https://www.linkedin.com/in/albert-wang-153b76235">Tamaki</a></td> 
+                <td><img src="./media/tamaki.jpg"/></td>
+                <td>Senior</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/albert-wang-153b76235">Albert</a></td>
+                <td><img width="300" src="./media/albert.jpg" class="animate-albert"/></td>
+                <td>Junior</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/bravo-nie-249780272/">Bravo</a></td>
+                <td><img src="./media/bravo.JPG"/></td>
+                <td>Baby</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/albert-wang-153b76235">Bessie</a></td>
+                <td><img src="./media/bessie.jpg"/></td>
+                <td>Junior</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/albert-wang-153b76235">Britton</a></td>
+                <td><img src="./media/britton.jpg"/></td>
+                <td>Junior</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/albert-wang-153b76235">Johnny</a></td>
+                <td><img src="./media/johnny.jpg"/></td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/yuhao-eric-zhao-75ab5321a/">Eric</a></td>
+                <td><img src="./media/eric.jpg"/></td>
+                <td>Senior</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/kyra-wang-040802224/">Kyra</a></td>
+                <td><img src="./media/kyra.jpg"/></td>
+                <td>Junior/Senior</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/albert-wang-153b76235">Jangmin</a></td>
+                <td><img src="./media/jangmin.jpg"/></td>
+                <td>Junior</td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <!--Day1-->
+        <div class="days" id = "day1">Day1</div>
+        <a class="days" href="#top">Top</a>
+    
+        <b style="display: block;">We got to the border</b>
+        <img width= 300 src="./media/IMG_1371.jpeg"/>
+        <div>We gave our passport and we got through the border</div>
+        <br/>
+        <div>We got Lebanese food for dinner</div>
+        <img height= 300px src="./media/IMG_1378.jpg"/>
+        <img height= 300px src="./media/IMG_4721.jpeg"/>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Caputured dating scene XD</div>
+                <img width = 300 src="./media/IMG_1381.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Oops</div>
+                <img width = 300 src="./media/IMG_4739.jpeg"/>
+            </span>
+        </div>
+
+        <br/>
+
+        <!--Day2-->
+        <div class="days" id = "day2">Day2</div>
+        <a class="days" href="#top">Top</a>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>First breakfast in Montreal</div>
+                <img width=300 src="./media/IMG_1389.jpeg"/>     
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Quick call to home from Montreal</div>
+                <img width="300" src="./media/IMG_9528.jpeg"/>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Old couple museum date</div>
+                <img width="300" src="./media/IMG_1403.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Focused on something</div>
+                <img width="300" src="./media/IMG_0135.jpeg"/>
+            </span>
+        </div>
+        <div>
+            <div>Madam jang</div>
+            <img width="300" src="./media/IMG_1409.jpeg"/>
+        </div>
+        <div>After climbing long long stairs</div>
+        <img width="300" src="./media/IMG_9550.jpeg"/>
+        <p style="display: inline;">
+            <div>Some spicy noodle after cold snowing day</div>
+            <img width="300" src="./media/IMG_1420.jpeg"/>
+        </p>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Sibling moment</div>
+                <img width=300 src="./media/IMG_1425.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>kinda getting sleepy</div>
+                <img width="300" src="./media/IMG_0271.jpeg"/>
+            </span>
+        </div>
+
+        <br/>
+        
+        <!--Day3-->
+        <div class="days" id = "day3">Day3</div>
+        <a class="days" href="#top">Top</a>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Starting a day with some nice breakfast</div>
+                <img width="300" src="./media/IMG_1332.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Awwww</div>
+                <img width="300" src="./media/IMG_0670.jpeg"/>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>Biosphere!</div>
+                <img width="300" src="./media/IMG_9560.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>The biosphere was mid but found another Albert:)</div>
+                <img width="300" src="./media/IMG_1448.jpeg"/>
+            </span>
+        </div>
+
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>another Albert</div>
+                <img width="300" src="./media/IMG_7068.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>biking back home team</div>
+                <img width="300" src="./media/IMG_9567.jpeg"/>
+            </span>
+        </div>
+        <br/>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>oh, he saw me</div>
+                <img width="300" src="./media/IMG_1453.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>AWWWWWWWWWWW</div>
+                <img width="300" src="./media/IMG_1454.jpeg"/>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>very wholesome pic</div>
+                <img width="300" src="./media/IMG_1377.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>wait what</div>
+                <img width="300" src="./media/IMG_1382.jpeg"/>
+            </span>
+        </div>
+
+        <br/>
+
+        <!--Day4-->
+        <div class="days" id = "day4">Day4</div>
+        <a class="days" href="#top">Top</a>
+        <div>Starting a day with pizza</div>
+        <img width="300" src="./media/IMG_1446.JPG"/>
+        <img style="display: inline-block; vertical-align: top;" width="300" src="./media/IMG_4841.jpeg"/>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>ok bessie very cute</div>
+                <img width="300" src="./media/IMG_6508.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>wait what</div>
+                <img width="300" src="./media/IMG_9646.JPG"/>
+            </span>
+        </div>
+        <div>quick market with BY</div>
+        <img width="300" src="./media/IMG_1478.jpeg"/>
+        <img width="300" src="./media/IMG_1460.jpeg"/>
+        <div>I have no idea what she was up to</div>
+        <img width="300" src="./media/IMG_1459.jpeg"/>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>very nice photo</div>
+                <img width="300" src="./media/IMG_4860.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>spa time</div>
+                <img width="300" src="./media/IMG_4865.jpeg"/>
+            </span>
+        </div>
+        
+        <br/>
+
+        <!--Day5-->
+        <div class="days" id = "day5">Day5</div>
+        <a class="days" href="#top">Top</a>
+        <div>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>going back to Batess</div>
+                <img width="300" src="./media/IMG_1501.jpeg"/>
+            </span>
+            <span style="display: inline-block; vertical-align: top;">
+                <div>good night</div>
+                <img width="300" src="./media/IMG_1474.jpeg"/>
+            </span>
+        </div>
+    </body>
+</html>
