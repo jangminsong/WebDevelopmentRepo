@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <style>
+            .class1{
+                color: orange;
+                width: 250px;
+                border:  1px solid black;
+                padding: 20px;
+                text-align: center;
+            }
+            .class2{
+                background-color:  dodgerblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="class1 class2">
+            Some text inside a div
+        </div>
+        <script>
+            //== vs === 
+            console.log(2 == 1+1);
+            console.log("2" == 1+1);
+            console.log("2" === 1+1);
+
+            //short-circuit evaluation
+            console.log(true && "<h1>This is header</h1>");
+            console.log(false && "<h1>This is header</h1>");
+
+            //ternary operator
+            let name = "frankie";
+            if (name == "frankie"){
+                console.log("the if");
+            } else {
+                var msg = "the else";
+            }
+            console.log("the else")
+
+            let msg2 = (name === "frankie") ? "the if": "the else";
+            console.log(msg2);
+
+            //map
+            const numbers = [1,4,9,16,25];
+            const roots = numbers.map(Math.sqrt);
+            
+
+            function go(item){return item + 1;}
+            const new_numbers = numbers.map(go);
+            console.log(new_numbers);
+            
+            const doit = (item) => item + 10;
+            const new_numbers2 = numbers.map((item) => item + 10);
+            console.log(new_numbers2);
+        </script>
+    </body>
+</html>

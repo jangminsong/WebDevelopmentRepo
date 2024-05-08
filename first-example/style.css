@@ -1,0 +1,70 @@
+h1,h3{
+    color:red;
+    background-color: rgb(12, 28, 33);
+}
+
+h2{
+    color: black;
+}
+
+div{
+    background-color: blue; 
+    color: white; 
+    text-align: center; 
+    width: 200px; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+span{
+    background-color: red;
+}
+
+/* hello */
+.boxdiv{
+    background-color: green; 
+    color: white; 
+    text-align: center; 
+    width: 400px; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#divno9{
+    background-color: red; 
+    color: white; 
+    text-align: center; 
+    width: 200px; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a:hover{
+    color: red;
+    background-color: yellow;
+}
+
+.boxdiv > h1{
+    background-color: transparent;
+    color: red;
+}
+
+#boxexample{
+    color: black;
+    background-color: white;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px
+}
+
+#center{
+    margin-left:auto;
+    margin-right:auto;
+
+}

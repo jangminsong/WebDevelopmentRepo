@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fun Web Page</title>
+        <style>
+            body{
+                background-color: white;
+            }
+            @media(max-width: 400px){
+                body{
+                    background-color: dodgerblue;
+                }
+            }
+            div{
+                border: 1px solid black;
+                background-color: peachpuff;
+                color: black;
+                width: 200px
+            }
+
+            .resizes{
+                margin-top: 10px;
+                height: 100px;
+                width: 100px;
+                background-color: orange;
+                border: 1px solid black;
+            }
+
+            .resizes:hover{
+                margin-top: 10px;
+                height: 500px;
+                width: 500px;
+                background-color: orange;
+                border: 1px solid black;
+                transition: width 2s, height 5s
+            }
+
+            .animates{
+                height: 100px;
+                width: 100px;
+                background-color: dodgerblue;
+                position: relative;
+                animation-name: animation1;
+                animation-duration: 5s;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+
+            @keyframes animation1{
+                0%{
+                    background-color: dodgerblue;
+                    left: 0px;
+                    top: 0px;
+                    transform: rotate(170deg);
+                }
+                25%{
+                    background-color: yellow;
+                    left: 200px;
+                    top: 0px;
+                }
+                50%{
+                    background-color: red;
+                    left: 200px;
+                    top: 200px;
+                }
+                75%{
+                    background-color: green;
+                    left: 0px;
+                    top: 200px;
+                }
+                100%{
+                    background-color: dodgerblue;
+                    left: 0px;
+                    top: 0px;
+                    
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" popovertarget="my_popover">show auto popover</button>
+        <button type="button" popovertarget="my_popover2" popovertargetaction = "show">show manual popover</button>
+        <button type="button" popovertarget="my_popover2" popovertargetaction = "hide">hide manual popover</button>
+        <div popover="auto" id="my_popover">auto popover</div>
+        <div popover="manual" id="my_popover2">manual popover</div>
+
+        <div class="resizes"></div>
+
+        <div class="animates"><img src="albert.jpg"  style="align-items: center; width: 100px; height: 100px"></a></div>
+    </body>
+</html>
